@@ -6,7 +6,7 @@ function App() {
   const [temperatureColor, setTemperatureColor] = useState('neutral');
 
   const increaseTemp = () => {
-    if (temperatureValue === 100) return;
+    if (temperatureValue === 90) return;
 
     const newTemp = temperatureValue + 1;
 
@@ -24,7 +24,7 @@ function App() {
   }
 
   const decreaseTemp = () => {
-    if (temperatureValue === 62) return;
+    if (temperatureValue === 68) return;
     
     const newTemp = temperatureValue - 1;
 
